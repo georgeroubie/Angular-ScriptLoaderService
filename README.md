@@ -21,7 +21,7 @@ Load JavaScript files dynamically in your Angular Project.
 ```
     const scriptFile: ScriptModel = {
         name: 'blobScriptFile',
-        src: 'https://fieldsalesreadydev.blob.core.windows.net/client-configuration/config.js',
+        src: 'https://website.blob.core.windows.net/client-configuration/config.js',
         loaded: false
     };
     this.scriptLoaderService.load(scriptFile, true).subscribe(() => {
