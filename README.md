@@ -1,6 +1,6 @@
 # Description
 
-Load JavaScript files dynamically in Angular.
+Load JavaScript files dynamically in your Angular Project.
 
 ## Example
 
