@@ -3,8 +3,8 @@ import { Injectable } from '@angular/core';
 // Application Interfaces
 import { ScriptModel } from 'script-model';
 // RxJs
-import { Observable } from 'rxjs/Observable';
-import { Observer } from 'rxjs/Observer';
+import { Observable } from 'rxjs';
+import { Observer } from 'rxjs';
 
 @Injectable()
 export class ScriptLoaderService {
