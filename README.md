@@ -6,7 +6,7 @@ Load JavaScript files dynamically in your Angular Project.
 
 ### Cached script
 ```
-    const scriptFile: ScriptModel = {
+    const scriptFile: IScriptModel = {
         name: 'intercom',
         src: '/assets/js/intercom.js',
         loaded: false
@@ -19,7 +19,7 @@ Load JavaScript files dynamically in your Angular Project.
 ### No cached script
 
 ```
-    const scriptFile: ScriptModel = {
+    const scriptFile: IScriptModel = {
         name: 'blobScriptFile',
         src: 'https://website.blob.core.windows.net/client-configuration/config.js',
         loaded: false
