@@ -1,4 +1,4 @@
-export interface ScriptModel {
+export interface IScriptModel {
     name: string;
     src: string;
     loaded: boolean;
